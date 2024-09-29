@@ -108,3 +108,99 @@ section.plan h1 {
 .plan-content span {
     font-weight: 600;color: #8f8d88;
 }
+
+/* Mindset position style */
+
+section.mindset-container {
+    margin-bottom: 100px;
+    background-image: linear-gradient(to right, #f7531a, #ffff0000), url(images/watch.png);
+    padding: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-size: cover;
+}
+
+.mindset h1 {
+    color: white;
+    width: 300px;
+}
+
+.mindset button {
+    font-weight: 700;
+    border: navajowhite;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #cb870d;
+    background-color: wheat;
+}
+
+/* footer section  */
+
+footer.footer {
+    background: black;
+    color: white;
+}
+
+.left-side {
+    width: 50%;
+}
+
+.left-side p {
+    font-size: 11px;
+    width: 330px;
+    color: #b5b5b5;
+    line-height: 20px;
+}
+
+.left-side span {
+    display: block;
+    font-size: 12px;
+    color: #b5b5b5;
+}
+
+.left-side span a {
+    line-height: 30px;
+    color: #b5b5b5;
+    text-decoration: none;
+}
+
+.footer-icon img {
+    margin-top: 20px;
+    width: 30px;
+    margin-right: 15px;
+}
+
+.footer-container {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    padding: 70px 0px;
+}
+
+
+.right-side h3 {
+    color: #61b5d8;
+}
+
+.right-side input[type="text"] {
+    display: block;
+    background: black;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.right-side input[type="button"] {
+    background: white;
+    padding: 15px 30px;
+    border: navajowhite;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #F15B22;
+}
+
+
+/* The End */
